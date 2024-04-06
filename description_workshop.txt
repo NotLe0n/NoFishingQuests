@@ -12,8 +12,9 @@ The items Fin Wings and Hotline Fishing Hook are only available once in hardmode
 If you have any problems, bugs, or suggestions contact me on my [url=https://discord.gg/NX4DVzz2v6]discord[/url] or leave a comment!
 This mod is open source on [url=https://github.com/NotLe0n/AnglerShop]GitHub[/url]. If you have a GitHub account, please give it a star!
 
-Although the code is open source you are NOT ALLOWED to copy it without permission and credit. 
-You can contact me over discord or e-mail (see my github profile). Credit means my name in your mod's description and/or adding me as a co-author.
+[h2]License:[/h2]
+This mod is licensed under the GNU GPLv3 license.
+If you use any code from this mod you have to open source it under the same license and give credit in your mod's description.
 
 [h2]Special Thanks:[/h2]
 [b]Crapsky233[/b] for adding support for the "Dialogue Panel Rework" mod!
@@ -37,42 +38,4 @@ You can contact me over discord or e-mail (see my github profile). Credit means 
 [list]
 [*] Seperated the shop into two: One for useful items and one for decoration items
 [*] Added missing shop items
-[/list]
-
-[h3]v2.4[/h3]
-[list]
-[*] Updated to 1.4.4
-[/list]
-
-[h3]v2.3[/h3]
-[list]
-[*] Added a toggleable custom currency, which you get by completing angler quests (1-4 per quest)
-[/list]
-
-[h3]v2.2.1[/h3]
-[list]
-[*] Changed name, description and Icon
-[*] Some bug fixes and code style changes
-[/list]
-
-[h3]v2.2[/h3]
-[list]
-[*] Added support for the "Dialogue Panel Rework" mod (thanks Crapsky233)
-[*] Update to dotnet 6
-[/list]
-
-[h3]v2.1.2[/h3]
-[list]
-[*] Fixed pricing bug
-[/list]
-
-[h3]v2.1[/h3]
-[list]
-[*] Removed "New Angler" (may he rest his soul).
-Access the shop through the normal angler now.
-[/list]
-
-[h3]v2.0[/h3]
-[list]
-[*] Updated to 1.4
 [/list]

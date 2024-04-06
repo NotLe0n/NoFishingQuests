@@ -75,15 +75,14 @@ public class AnglerShopSystem : ModSystem
 	
 	private static void AddItemToShop(NPCShop shop, short id, int price, params Condition[] conditions)
 	{
+		var config = ModContent.GetInstance<Config>();
 		var item = new Item(id) {
-			shopCustomPrice = price
+			value = price * (int)(4000 * config.goldMultiplier)
 		};
 		
-		if (ModContent.GetInstance<Config>().useCustomCurrency) {
+		if (config.useCustomCurrency) {
 			item.shopSpecialCurrency = AnglerCoin.id;
-		}
-		else {
-			item.shopCustomPrice *= (int)(4000 * ModContent.GetInstance<Config>().goldMultiplier);
+			item.shopCustomPrice = price;
 		}
 		
 		shop.Add(item, conditions);

@@ -12,8 +12,9 @@ The items Fin Wings and Hotline Fishing Hook are only available once in hardmode
 
 If you have any problems, bugs, or suggestions contact me on my [discord](https://discord.gg/NX4DVzz2v6)!
 
-Although the code is open source you are NOT ALLOWED to copy it without permission and credit. 
-You can contact me over discord or e-mail (see my github profile). Credit means my name in your mod's description and/or adding me as a co-author.
+## License
+This mod is licensed under the GNU GPLv3 license.
+If you use any code from this mod you have to open source it under the same license and give credit in your mod's description.
 
 ## Special Thanks:
 - **Crapsky233** for adding support for the "Dialogue Panel Rework" mod!
@@ -32,6 +33,3 @@ You can contact me over discord or e-mail (see my github profile). Credit means 
 ### v3.0
 * Seperated the shop into two: One for useful items and one for decoration items
 * Added missing shop items
-
-### v2.4
-* Updated to 1.4.4
