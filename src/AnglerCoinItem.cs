@@ -1,6 +1,7 @@
 ﻿using Terraria;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
+using Terraria.UI;
 
 namespace NoFishingQuests;
 
@@ -23,10 +24,10 @@ public class AnglerCoinItem : ModItem
 
 	public override void Load()
 	{
-		Terraria.UI.On_ItemSlot.PickItemMovementAction += AllowCoinSlotPlacement;
+		On_ItemSlot.PickItemMovementAction += AllowCoinSlotPlacement;
 	}
 
-	private static int AllowCoinSlotPlacement(Terraria.UI.On_ItemSlot.orig_PickItemMovementAction orig, Item[] inv, int context, int slot, Item checkItem)
+	private static int AllowCoinSlotPlacement(On_ItemSlot.orig_PickItemMovementAction orig, Item[] inv, int context, int slot, Item checkItem)
 	{
 		if (context == 1 && checkItem.type == ModContent.ItemType<AnglerCoinItem>()) {
 			return 0;

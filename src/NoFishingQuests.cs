@@ -28,8 +28,7 @@ internal class NoFishingQuests : Mod
 
 		int type = ModContent.ItemType<AnglerCoinItem>();
 		int stack = Main.rand.Next(config.minAnglerCoins, config.maxAnglerCoins);
-		int index = Item.NewItem(new EntitySource_Gift(angler), (int)self.position.X, (int)self.position.Y,
-			self.width, self.height, type, stack, false, 0, true);
+		int index = Item.NewItem(new EntitySource_Gift(angler), (int)self.position.X, (int)self.position.Y, self.width, self.height, type, stack, false, 0, true);
 
 		if (Main.netMode == NetmodeID.MultiplayerClient) {
 			NetMessage.SendData(MessageID.SyncItem, -1, -1, null, index, 1f);
